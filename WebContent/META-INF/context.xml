@@ -1,0 +1,7 @@
+<!-- formerly, the context contained the attribute: "factory="org.apache.commons.dbcp.BasicDataSourceFactory"" -->
+<Context displayName="/usr/share/tomcat5.5-webapps/areaID" docBase="areaID" path="/areaID">
+  <Resource name="jdbc/areaID" type="javax.sql.DataSource" username="postgres" password="" 
+	    url="jdbc:postgresql:areaID" maxIdle="5" maxActive="32" driverClassName="org.postgresql.Driver" 
+	    maxWait="2000" removeAbandoned="true"  
+	    removeAbandonedTimeout="2" />
+</Context>
