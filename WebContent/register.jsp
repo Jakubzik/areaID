@@ -14,8 +14,13 @@
 <script src="js/jquery.metadata.js"></script>
 <script src="js/jquery.form.js"></script>
 	<script>
+	// Das braucht der Validator
+	// für Select-Boxen
 	$.metadata.setType("attr", "validate");
+
 	$(document).ready(function() {
+		// Automatische Validierung
+		// fürs Formular einschalten:
 		$("#fCreateAccount").validate({
 			rules:{
 				Repeat: {
@@ -24,7 +29,8 @@
 				}
 			}
 		});
-		
+
+		// Formular per Ajax absenden
 		$('#fCreateAccount').ajaxForm({
 		    target:     $('#contentResponse'), 
 		    success:    function() { 
@@ -42,7 +48,7 @@
 		$( "#SubjectBirthdate" ).datepicker({
 			changeMonth: true,
 			changeYear: true,
-			yearRange: "c-80:c-12",
+			yearRange: '-80:-12', minDate: '-80y', maxDate: '-12y',
 			dateFormat: "yy-mm-dd"
 		});
 	});

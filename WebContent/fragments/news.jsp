@@ -5,16 +5,13 @@
 				<h3>Setting the project up</h3>
 				
 				<p class="news">
-					In order to demonstrate the basic idea 
-					of AreaID, we're setting up a prototype 
-					application...
-					<a href="#" class="more">Read More &raquo;</a>
+					Sept. 2011: Setting up the webapp...
+					<a href="sorry.jsp" class="more">Read More &raquo;</a>
 				</p>
 				
 				<h3>Repository at GitHub</h3>
 				
 				<p class="news">
-					A GitHub repository has been created for 
-					the code.
-					<a href="#" class="more">Read More &raquo;</a>
+					A <a href="http://github.com/Jakubzik/areaID" target="_blank">GitHub repository</a> has been created for 
+					the source code of the prototype.
 				</p>

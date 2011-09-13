@@ -59,7 +59,7 @@
 		
 		<h2 id="Intro"><a href="#">Login</a></h2>
 		<div id="formular">
-			<form method="post" action="fragments/login.jsp" name="fLogIn" id="fLogIn">
+			<form method="post" action="json/login.jsp" name="fLogIn" id="fLogIn">
 				<fieldset>
 				<legend>Credentials</legend>
 				
@@ -72,7 +72,8 @@
 		</div>
 		<div id="contentHidden" style="display:none">
 		<h2>Welcome Back</h2>
-		You are successfully logged in.
+		<p>You are successfully logged in.</p>
+		<p>Maybe you would like to tell us more about the <a href="residences.jsp">places where you lived</a>?</p>
 			<br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br />

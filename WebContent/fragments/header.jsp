@@ -6,7 +6,7 @@
 				<input value="Search" />
 				</form>
 				
-				<h1><a href="#">AreaID</a></h1>
+				<h1><a href="#"><acronym title="Archive of Regional English Accents, Internet-Based Data Acquisition">AreaID</acronym></a></h1>
 				
 				<h2>
 				
@@ -16,17 +16,17 @@
 				
 				<ul id="nav">
 				
-						<li><a href="index.html" <%if(request.getParameter("navHome")!=null) out.write("class='active'"); %>>Home</li>
+						<li><a href="index.jsp" <%if(request.getParameter("navHome")!=null) out.write("class='active'"); %>>Home</li>
 						
-						<li><a href="#Intro"><em>M</em>y Data</a></li>
+						<li><a href="login.jsp"><em>M</em>y Data</a></li>
 											
-						<li><a href="#Intro"><em>T</em>our</a></li>
+						<li><a href="sorry.jsp"><em>T</em>our</a></li>
 						
-						<li><a href="#About"><em>D</em>ata</a></li>
+						<li><a href="sorry.jsp"><em>D</em>ata</a></li>
 						
-						<li><a href="#Examples"><em>P</em>apers</a></li>
+						<li><a href="sorry.jsp"><em>P</em>apers</a></li>
 						
-						<li><a href="#Examples"><em>C</em>ontact</a></li>
+						<li><a href="sorry.jsp"><em>C</em>ontact</a></li>
 				
 				</ul>
 				

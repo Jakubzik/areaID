@@ -23,6 +23,7 @@
 		sErr = "You are already registered. Please use the 'Contact' form to apply for a new password if you have forgotten yours";
 	
 	boolean bOK=false;
+	subject.setSubjectEmail(subject.getSubjectEmail().toLowerCase());
 	if(sErr.length()==0)
 		bOK = subject.add();
 	

@@ -451,6 +451,25 @@ input:focus {border-color:#0000ff;}
 select {border:1px solid #666; padding-left:0.3em; margin-bottom:0.6em; background:#fff; width:100px;}
 textarea {width:244px; border:1px solid #666;}
 textarea:focus {border-color:#900;}
-.submitbtn {width:123px; background:#666; border:1px solid; border-color:#999 #333 #333 #999; color:#fff; cursor:pointer; padding-left:0.3em; margin:0;}
-.submitbtn:hover {background:#999; color:#fff; border:1px solid; border-color:#00 #990100 #990100 #00;}
 
+.submitbtn {
+	background-color:#F6F5F5;
+	border:1px solid #8395AB;
+    font-family:Trebuchet MS, Helvetica, Verdana, Arial, 'sans serif';
+	font-size:18px;
+	color:#1A1656;
+	width:80px;
+}
+.submitbtn:hover {border:1px solid #000;}
+
+.deletebtn {
+	background-color:#F6F5F5;
+	border:1px solid #999;
+    font-family:Trebuchet MS, Helvetica, Verdana, Arial, 'sans serif';
+	font-size:18px;
+	color:#1A1656;
+	width:80px;
+}
+.deletebtn:hover {border:1px solid #f00000;}
+
+.clickable:hover {background:#eee;}

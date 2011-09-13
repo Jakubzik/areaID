@@ -7,6 +7,7 @@
 <title>AreaID</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/1.css" type="text/css" media="screen,projection" />
+
 <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://www.sixshootermedia.com/licensing/"><span property="dct:title">Free web site templates</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://www.sixshootermedia.com">Six Shooter Media</a>) / <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/us/">CC BY-NC 3.0</a></div>
 </head>
  
@@ -27,23 +28,30 @@
 		
 		<div id="content">
 		
-				<h2 id="Intro"><a href="#">Login</a></h2>
-		<div id="formular">
-			<form method="post" action="login.jsp" name="fLogIn" onsubmit="return login();">
-				<fieldset>
-				<legend>Credentials</legend>
-				
-				<label for="SubjectName">Name</label><input name="SubjectName" id="SubjectName" placeholder="Login Name" type="text">
-				<label for="SubjectPassword">Password</label><input name="SubjectPassword" id="SubjectPassword" placeholder="Password" type="password">
-				<label for="cmdLogin"></label><input name="cmdLogin" value="Log in" type="submit"><br />
-				<label for="RegisterLink"></label><a id="RegisterLink" href="register.jsp">Create New Account</a>
-				</fieldset>
-			</form>
-		</div>
-
+		<h2 id="Intro"><a href="#">With <acronym title="Archive of Regional English Accents, Internet-Based Data Acquisition">AreaID</acronym>, we try to ...</a></h2>
+		<p>...introduce a new tool for linguists: AreaID helps collect, examine and 
+		evaluate samples of spoken English. One way to <a href="register.jsp">get involved</a> is, therefore, to 
+		record samples of the way you speak. 
+		</p>
+		<p>Together with the recordings, we collect the location of the speakers (or, more precisely,
+		a history of the places where they lived for three years or longer). This helps us study 
+		regional dialects.</p>
+		<p>The spoken samples will then be evaluated: what dialects sound prestigeous? Which 
+		phonetic formants seem responsible for impressions of prestige/education/intelligence 
+		in the listener? Another way to <a href="register.jsp">get involved</a> is, therefore, 
+		to help us evaluate samples.</p>
+		<p>In the long run, we want to look for mechanisms of language change: ten years from now, 
+		are the same variants especially prestigious? Does spoken language 
+		evolve towards the most socially esteemed variant?</p>
+		<p>More details on our questions and methodology can be found under 'Papers'</p> 
+		
+		<h2 id="Intro"><a href="#">Who is AreaID?</a></h2>
+		AreaID is a project of the University of Heidelberg's English Department. 
+		The statistical information we collect will be open to all non-profit organisations.<br />
 	<br /><br /><br /><br /><br /><br />
 	<br /><br /><br /><br /><br /><br />
-	
+	<br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br />
 						
 		
 	</div>
